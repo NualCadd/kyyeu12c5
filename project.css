@@ -1,0 +1,155 @@
+/*Thanh điều hướng*/
+body {
+  margin: 0;
+}
+.button {
+  background-color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  display: flex;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: rgb(4, 51, 179);
+}
+.logo {
+  margin-right: 10px;
+  display: inline;
+  font-size: 40px;
+  color: aliceblue;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-right: 600px;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+  background-image: linear-gradient(
+    to right,
+    rgb(132, 132, 241),
+    rgb(233, 125, 233)
+  );
+  margin: 0px;
+  padding: 30px;
+  overflow: hidden;
+}
+a:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+/*Danh sách lớp*/
+table {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid;
+  border-collapse: collapse;
+  border-color: rgb(113, 114, 114);
+  width: 80%;
+  margin: 20px auto;
+}
+table th {
+  background-color: rgb(110, 142, 251);
+  color: white;
+  padding: 10px;
+}
+th,
+td {
+  font-size: auto;
+  font-style: bold;
+}
+td {
+  text-align: center;
+  font-size: auto;
+}
+
+/*Tiêu đề*/
+h1 {
+  text-align: center;
+  background: linear-gradient(to right, rgb(154, 66, 231), rgb(9, 6, 201));
+  color: transparent;
+  background-clip: text;
+  letter-spacing: 2px;
+}
+
+/*Popup window*/
+#Luan {
+  width: 50%;
+}
+#Tri {
+  width: 50%;
+}
+.Tien {
+  width: 1000px;
+}
+.Hien {
+  width: 600px;
+}
+.Dat {
+  width: 40%;
+}
+::backdrop {
+  background: #0009;
+}
+img {
+  width: 30%;
+}
+p {
+  margin-left: 40px;
+  font-weight: bold;
+}
+h2 {
+  margin-left: 5px;
+  text-decoration: underline;
+  background: linear-gradient(to right, rgb(46, 46, 226), rgb(226, 98, 226));
+  background-clip: text;
+  color: transparent;
+}
+button {
+  border-radius: 10px;
+}
+
+/*trang chủ*/
+.gioithieu {
+  text-align: center;
+  font-size: 25px;
+}
+.modau {
+  text-align: left;
+}
+.lớp {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
+}
+.chunhiem {
+  width: 20%;
+  height: auto;
+  float: left;
+}
+.gioithieuchunhiem {
+  font-size: 30px;
+}
+
+/*hoat dong*/
+.event {
+  text-align: center;
+}
+.event h2 {
+  font-size: 40px;
+}
+h3 {
+  text-align: center;
+}
+
+footer {
+  clear: both;
+  border-top: 3px solid rgb(151, 151, 230);
+  display: flex;
+}
