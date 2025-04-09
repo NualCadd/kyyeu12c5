@@ -1,46 +1,41 @@
 /*Thanh điều hướng*/
 body {
   margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
-.button {
-  background-color: rgb(255, 255, 255);
-  text-decoration: none;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-radius: 10px;
-  display: flex;
-  font-size: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
-  color: rgb(4, 51, 179);
-}
-.logo {
-  margin-right: 10px;
-  display: inline;
-  font-size: 40px;
-  color: aliceblue;
-  font-weight: bold;
-  margin-left: 20px;
-  margin-right: 600px;
+li {
+  margin: 0 10px;
 }
 ul {
   list-style-type: none;
   display: flex;
-  gap: 10px;
+  justify-content: space-evenly;
+}
+nav a {
+  text-decoration: none;
+  background-color: aliceblue;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 30px;
+  display: flex;
+  color: rgb(119, 142, 190);
+}
+nav {
   background-image: linear-gradient(
     to right,
     rgb(132, 132, 241),
     rgb(233, 125, 233)
   );
-  margin: 0px;
-  padding: 30px;
   overflow: hidden;
+  padding: 1rem;
+  margin: 0;
+  min-width: 100vw;
+  width: 100%;
 }
-a:hover {
+li a:hover {
   transform: scale(1.1);
-  transition: 1s;
+  transition: 0.3s ease;
 }
 
 /*Danh sách lớp*/
@@ -132,6 +127,7 @@ button {
   width: 20%;
   height: auto;
   float: left;
+  padding-bottom: 20px;
 }
 .gioithieuchunhiem {
   font-size: 30px;
